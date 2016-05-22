@@ -1,5 +1,5 @@
 CONFIG = {
-  'mode': 'wsgi',
+  #'mode': 'wsgi',
   'working_dir': '/home/box/web',
   'python': '/usr/bin/python',
   'args': (
@@ -7,6 +7,6 @@ CONFIG = {
     '--workers=16',
     '--timeout=60',
     '--log-level=debug',
-    'hello',
+    'hello.wsgi',
   ),
 }
